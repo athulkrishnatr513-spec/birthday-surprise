@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="landing-page">
+    <div class="page-transition"></div><audio id="bgMusic" src="assets/music/birthday.mp3" loop preload="auto"></audio>
+    <header class="site-header"><a class="brand" href="index.html">Birthday Love</a>
+        <nav class="nav-links" aria-label="Main navigation"><a href="index.html" class="active">Home</a><a
+                href="gallery.html" class="">Moments</a><a href="surprise.html" class="">Surprise</a></nav><button
+            class="music-toggle" type="button" aria-label="Toggle music"><i
+                class="fa-solid fa-volume-xmark"></i><span>Music Off</span></button>
+    </header>
+    <main class="hero-shell">
+        <div class="ambient-layer" aria-hidden="true"><span class="orb orb-one"></span><span
+                class="orb orb-two"></span><span class="orb orb-three"></span>
+            <div class="floating-field hearts-field"></div>
+            <div class="floating-field petals-field"></div>
+            <div class="floating-field sparkles-field"></div>
+        </div>
+        <section class="hero-card glass-card" data-aos="zoom-in">
+            <p class="eyebrow">A little universe made for you</p>
+            <h1>Happy Birthday <span class="heart-mark">❤️</span> My Love</h1>
+            <h2><span id="typedText"></span></h2>
+            <p class="hero-subtitle">Every candle on your cake represents a reason
+                I fall in love with you daily. Happy birthday to my everything</p><a class="glow-button journey-button"
+                href="gallery.html"><span>Begin the
+                    Journey</span><i class="fa-solid fa-arrow-right"></i></a>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

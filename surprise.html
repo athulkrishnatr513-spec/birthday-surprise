@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="surprise-page">
+    <div class="page-transition"></div><audio id="bgMusic" src="assets/music/birthday.mp3" loop preload="auto"></audio>
+    <header class="site-header"><a class="brand" href="index.html">Birthday Love</a>
+        <nav class="nav-links" aria-label="Main navigation"><a href="index.html" class="">Home</a><a href="gallery.html"
+                class="">Moments</a><a href="surprise.html" class="active">Surprise</a></nav><button
+            class="music-toggle" type="button" aria-label="Toggle music"><i
+                class="fa-solid fa-volume-xmark"></i><span>Music Off</span></button>
+    </header>
+    <main class="surprise-stage">
+        <div class="ambient-layer" aria-hidden="true"><span class="orb orb-one"></span><span
+                class="orb orb-three"></span>
+            <div class="floating-field sparkles-field"></div>
+        </div>
+        <section class="section-heading compact" data-aos="fade-up">
+            <p class="eyebrow">Surprise</p>
+            <h1>Make a wish and blow the candles.</h1>
+            <p>Tap each glowing candle flame to begin the sweetest moment.</p>
+        </section>
+        <section class="cake-scene glass-panel" data-aos="zoom-in" data-aos-delay="100">
+            <div class="party-effects" aria-hidden="true">
+                <div class="confetti-layer"></div>
+                <div class="balloon-layer"></div>
+                <div class="heart-layer"></div>
+            </div>
+            <div class="cake" aria-label="Birthday cake with three candles">
+                <div class="candles"><button class="candle" type="button" aria-label="Blow candle one"><span
+                            class="flame"></span><span class="wick"></span></button><button class="candle tall"
+                        type="button" aria-label="Blow candle two"><span class="flame"></span><span
+                            class="wick"></span></button><button class="candle" type="button"
+                        aria-label="Blow candle three"><span class="flame"></span><span class="wick"></span></button>
+                </div>
+                <div class="cake-top"><span class="icing-dot"></span><span class="icing-dot"></span><span
+                        class="icing-dot"></span><span class="icing-dot"></span></div>
+                <div class="cake-body">
+                    <div class="cake-slice"></div><span class="drip drip-one"></span><span
+                        class="drip drip-two"></span><span class="drip drip-three"></span>
+                </div>
+                <div class="cake-plate"></div>
+            </div>
+            <div class="birthday-message" aria-live="polite">
+                <h1>Happy Birthday ❤️</h1>
+                <p>May your smile always shine brighter than the candles.</p>
+                <p>May your dreams come true.</p>
+                <p>May every moment of your life be filled with happiness and love.</p>
+            </div>
+            <div class="thank-you">Achummaahh</div>
+        </section>
+        <div class="page-actions"><a class="soft-link" href="gallery.html"><i class="fa-solid fa-arrow-left"></i>
+                Moments</a><button class="glow-button replay-button" type="button"><span>Replay Magic</span><i
+                    class="fa-solid fa-rotate-right"></i></button></div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
